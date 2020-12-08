@@ -80,7 +80,8 @@ ul {
   font-display: swap;
 }
 li {
-  font-family: "Roboto";
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto", Arial;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -89,4 +90,13 @@ li {
 a {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
+}
+h3 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto", Arial;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  padding: 120px 103px;
+  width: 100%;
 }
