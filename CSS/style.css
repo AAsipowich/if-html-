@@ -10,6 +10,7 @@
   font-family: "Roboto";
   font-weight: 500;
   text-align: center;
+  margin-bottom: 120px;
 }
 
 .container {
@@ -40,6 +41,7 @@
 .item {
   width: 25%;
   text-align: center;
+  padding-bottom: 122px;
 }
 
 .image-wrapper {
@@ -56,6 +58,7 @@
   font-size: 24px;
   line-height: 28px;
   font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
 }
 footer {
   background: #10367c;
@@ -63,15 +66,17 @@ footer {
 .cn {
   max-width: 1232px;
   margin: 0 auto;
-  display: flex;
   padding: 120px 0px;
   width: 100%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
 }
 ul {
   list-style-type: none;
   padding: 0px;
   margin: 0 auto;
-  padding-right: 50px;
 }
 .heading {
   font-family: "Roboto-medium";
@@ -85,7 +90,7 @@ li {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  line-height: 24px;
+  margin: 24px;
 }
 a {
   color: rgba(255, 255, 255, 1);
@@ -96,7 +101,4 @@ h3 {
   font-family: "Roboto", Arial;
   font-style: normal;
   font-weight: 400;
-  display: flex;
-  padding: 120px 103px;
-  width: 100%;
 }
