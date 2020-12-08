@@ -75,8 +75,6 @@ footer {
 }
 ul {
   list-style-type: none;
-  padding: 0px;
-  margin: 0 auto;
 }
 .heading {
   font-family: "Roboto-medium";
@@ -89,8 +87,7 @@ li {
   font-family: "Roboto", Arial;
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  margin: 24px;
+  margin-bottom: 24px;
 }
 a {
   color: rgba(255, 255, 255, 1);
