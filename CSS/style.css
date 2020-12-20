@@ -7,10 +7,8 @@
   font-weight: 400;
 }
 
-* {
-  color: rgba(255, 255, 255, 1);
+*body {
   font-family: "Roboto", "sans-serifl";
-  font-style: normal;
 }
 
 .img-wra {
@@ -113,13 +111,13 @@
 
 .capital-text {
   font-size: 50px;
-
+  color: rgba(255, 255, 255, 1);
   font-weight: 500;
 }
 
 .text-form {
   font-weight: 400;
-
+  color: rgba(255, 255, 255, 1);
   margin: 24px;
   margin-left: 365px;
   margin-right: 221px;
@@ -127,7 +125,7 @@
 
 .text-form2 {
   font-weight: 400;
-
+  color: rgba(255, 255, 255, 1);
   margin: 24px;
 }
 
@@ -212,6 +210,7 @@ button {
   font-weight: 500;
   text-align: center;
   padding-top: 120px;
+  margin: 0 auto;
 }
 
 .title-underline {
@@ -223,19 +222,19 @@ button {
   margin-bottom: 80px;
 }
 
-.offers-list {
+.offer-heading_row {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.item {
+.offer_column-3 {
   width: 25%;
   text-align: center;
   padding-bottom: 122px;
   flex-wrap: wrap;
 }
 
-.image-wrapper {
+.icon-offer-wrapper {
   width: 100px;
   height: 100px;
   margin: 0 auto;
@@ -327,6 +326,7 @@ h4 {
 }
 
 h3 {
+  color: rgba(255, 255, 255, 1);
   font-style: normal;
   font-weight: 400;
 }
@@ -372,18 +372,18 @@ h3 {
     height: 47px;
   }
 
-  .item {
+  .offer_column-3 {
     width: 100%;
     height: 104px;
     margin: 32px 0;
     padding: 0;
   }
 
-  .offers-list {
+  .offer-heading_row {
     flex-wrap: wrap;
   }
 
-  .image-wrapper {
+  .icon-offer-wrapper {
     width: 70px;
     height: 70px;
     margin-bottom: 16px;
@@ -393,7 +393,7 @@ h3 {
     display: none;
   }
 
-  .offers-list {
+  .offer-heading_row {
     font-size: 15px;
     line-height: 18px;
   }
@@ -428,6 +428,7 @@ h3 {
   }
 
   .footer-copyright {
+    color: rgba(255, 255, 255, 1);
     font-size: 12px;
     padding-bottom: 40px;
     padding-top: 32px;
@@ -438,13 +439,14 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 1232px) {
-  .offers-list {
+  .offer-heading_row {
     flex-wrap: wrap;
   }
   .container {
     max-width: 90%;
   }
-  .item {
+
+  .offer_column-3 {
     height: 100%;
     flex-basis: 50%;
   }
