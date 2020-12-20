@@ -443,7 +443,7 @@ h3 {
     flex-wrap: wrap;
   }
   .container {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .offer_column-3 {
