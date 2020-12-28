@@ -15,19 +15,18 @@
 /*header*/
 
 .header {
-  background: url(../images/fon.svg);
-  background-repeat: no-repeat;
-  width: auto;
-  height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
-
 
 .header__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 51px;
-  padding-left: 104px;
 }
 
 .header_logo {
@@ -74,8 +73,6 @@
 }
 
 .nav__item:after {
-  content: "";
-  display: block;
   width: 100%;
   height: 4px;
   background-color: #f5bd41;
@@ -93,9 +90,6 @@
   display: block;
 }
 
-.header__img {
-  padding-right: 104px;
-}
 
 .svg-sprite {
   position: absolute;
@@ -125,14 +119,23 @@
   height: 16px;
 }
 
-.intro{
-  margin-bottom: 115px;
-}
+/*intro*/
 
+.intro{
+  width: 100%;
+    height: 900px;
+    min-height: 100vh;
+    background: url(../images/fon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .intro__title {
   display: flex;
-  margin-left: 104px;
   margin-top: 202px;
   font-weight: 500;
   font-size: 50px;
@@ -142,11 +145,10 @@
 
 .form__descr {
   display: flex;
-  padding-left: 128px;
 }
 
 .form__descr > p {
-  margin-right: 421px;
+  margin-right: 221px;
 }
 
 .search__descr {
@@ -159,11 +161,10 @@
 
 .input__btn {
   display: flex;
-  padding-left: 104px;
 }
 
-#Hotel {
-  width: 33%;
+.Hotel {
+  width: 38%;
   height: 64px;
   border: none;
   border-top-left-radius: 8px;
@@ -172,16 +173,16 @@
   color: #383838;
 }
 
-#Check-in—Check-out {
-  width: 20%;
+.Check-in—Check-out {
+  width: 24%;
   height: 64px;
   border: none;
   font-size: 18px;
   color: #383838;
 }
 
-#Adults—0Children—1Room {
-  width: 30%;
+.Adults—0Children—1Room {
+  width: 26%;
   height: 64px;
   border: none;
   font-size: 18px;
@@ -189,7 +190,7 @@
 }
 
 .btn {
-  width: 12%;
+  width: 17%;
   height: 64px;
   border-radius: 8px;
   background-color: rgba(48, 119, 198, 1);
@@ -272,22 +273,22 @@
   margin-bottom: 48px;
 }
 
-.icon3 {
+.support{
   width: 75px;
   height: 92px;
 }
 
-.icon4 {
+.messag{
   width: 84px;
   height: 84px;
 }
 
-.icon5 {
+.computer {
   width: 100px;
   height: 67px;
 }
 
-.icon6 {
+.like{
   width: 92px;
   height: 84px;
 }
@@ -299,11 +300,7 @@
   align-items: center;
 }
 
-.container {
-  max-width: 1232px;
-  margin: 0 auto;
-  max-width: 100%;
-}
+
 
 footer {
   background: #10367c;
@@ -380,7 +377,7 @@ h3 {
   }
 
   .header {
-    height: 533px;
+    height: 36px;
   }
 
   .container {
@@ -443,8 +440,7 @@ top:0px;
   }
 
 .intro{
-  height: 445px;
-  margin-bottom: 0px;
+  height: 533px;
 }
 
   .intro__title {
@@ -477,7 +473,7 @@ top:0px;
     padding: 8px;
   }
 
-  #Hotel__mobile {
+  .Hotel__mobile {
     height: 48px;
     font-weight: 500;
     font-size: 15px;
@@ -506,7 +502,7 @@ top:0px;
     width: 50%;
   }
 
-  #Check-in{
+  .Check-in{
     height: 48px;
     font-size: 15px;
     margin-bottom: 8px;
@@ -519,7 +515,7 @@ top:0px;
     -o-border-radius: 4px;
 }
 
-#Check-in:placeholder-shown{
+.Check-in:placeholder-shown{
     color: #383838;
     padding-top: 24px;
     padding-left: 8px;
@@ -534,7 +530,7 @@ top:0px;
     width: 50%;
 }
 
-#Check-out{
+.Check-out{
     height: 48px;
     font-size: 15px;
     color: #383838;
@@ -547,7 +543,7 @@ top:0px;
     -o-border-radius: 5px;
 } 
 
-#Check-out:placeholder-shown{
+.Check-out:placeholder-shown{
     color: #383838;
     padding-top: 24px;
     padding-left: 8px;
@@ -562,7 +558,7 @@ top:0px;
     
 }
 
-#Adults{
+.Adults{
     height: 48px;
     font-size: 15px;
     color: #383838;
@@ -572,7 +568,7 @@ top:0px;
     border-bottom-left-radius: 4px;
 }
 
-#Children{
+.Children{
     height: 48px;
     font-size: 15px;
     color: #383838;
@@ -580,7 +576,7 @@ top:0px;
     border: none;
 }
 
-#Room{
+.Room{
     height: 48px;
     font-size: 15px;
     color: #383838;
@@ -612,14 +608,9 @@ top:0px;
   margin-top: 31px;
 }
 
-
-
 .text-center{
   padding-top: 24px;
 }
-
-
-
 
 .offer__item__row {
   padding-bottom: 40px;
