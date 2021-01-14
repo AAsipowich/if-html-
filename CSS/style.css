@@ -3,7 +3,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Roboto", sans-serifl;
+            font-family: "Roboto", sans-serif;
         }
         
         .container {
@@ -61,7 +61,7 @@
             text-decoration: none;
             font-size: 24px;
             color: #ffffff;
-            padding-left: 24px;
+            margin-left: 24px;
             display: inline-block;
             position: relative;
             vertical-align: top;
@@ -69,7 +69,7 @@
         }
         
         .nav__item:first-child {
-            padding-left: 0;
+            margin-left: 0;
         }
         
         .nav__item:after {
@@ -543,7 +543,7 @@
         
         h4 {
             font-weight: 500;
-            font-size: 20px;
+            font-size: 15px;
             line-height: 18px;
             margin: 0;
         }
